@@ -1,0 +1,42 @@
+package demo1.reflect;
+
+public class Person {
+		private String name;
+		private int age;
+		
+		
+		
+		
+		public String getName() {
+			return name;
+		}
+
+
+
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+
+
+
+		public int getAge() {
+			return age;
+		}
+
+
+
+
+		public void setAge(int age) {
+			this.age = age;
+		}
+
+
+
+
+		public void sayHello(){
+				System.out.println("hello,i am "+name+",i am "+age+" years old");
+			
+		}
+}
